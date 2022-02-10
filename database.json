@@ -1,0 +1,196 @@
+{
+  "listings": [
+    {
+      "id": 5,
+      "userId": 1,
+      "imageURL": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/924belairroadmostexpensivehouseveranda-1558701809.jpg?crop=1xw:1xh;center,top&resize=480:*",
+      "price": 200,
+      "address": "332 Branch Road, Austin, TX",
+      "bedrooms": 15,
+      "bathrooms": 20
+    },
+    {
+      "id": 6,
+      "userId": 1,
+      "imageURL": "https://www.colourbox.com/preview/20916952-terrible-house-with-ghosts-for-horror-stories-almost-destroyed-big-hut-in-forest.jpg",
+      "price": 2000000,
+      "address": "345 Nashville Lane, Nashville, TN",
+      "bedrooms": 2,
+      "bathrooms": 0
+    },
+    {
+      "id": 7,
+      "userId": 1,
+      "imageURL": "https://i.ytimg.com/vi/MARPpXuTi7k/maxresdefault.jpg",
+      "price": 20,
+      "address": "668 Lost Road, Amarillo, TX",
+      "bedrooms": 30,
+      "bathrooms": 10
+    },
+    {
+      "id": 8,
+      "userId": 1,
+      "imageURL": "https://www.sbidawards.com/wp-content/uploads/2020/08/0c2107c787a7815480dd1c833d285ef2a7c89183.jpg",
+      "price": 2000,
+      "address": "909 Jury Road, Nashville, TN",
+      "bedrooms": 2,
+      "bathrooms": 19
+    },
+    {
+      "id": 9,
+      "userId": 1,
+      "imageURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAWr1BEdYoEBfMfPUmHvHb3wexBWefcTg92g&usqp=CAU",
+      "price": 15000000,
+      "address": "654 Broadway Street, Nashville, TN",
+      "bedrooms": 2,
+      "bathrooms": 0
+    },
+    {
+      "id": 10,
+      "userId": 1,
+      "imageURL": "https://cdn.theatlantic.com/thumbor/-CVXlpn3jshpR8rWw3cFzFap9fQ=/857x0:4588x2798/1200x900/media/img/mt/2019/07/shutterstock_1023329608/original.jpg",
+      "price": 250000,
+      "address": "567 Lost River Road, Franklin, Kentucky",
+      "bedrooms": 4,
+      "bathrooms": 4
+    },
+    {
+      "id": 11,
+      "userId": 1,
+      "imageURL": "https://i.ytimg.com/vi/f4-s2l7PQZc/maxresdefault.jpg",
+      "price": 20,
+      "address": "333 Rancher Road, Austin, Texas",
+      "bedrooms": 40,
+      "bathrooms": 15
+    },
+    {
+      "userId": 1,
+      "imageURL": "https://cdn.pixabay.com/photo/2016/11/18/17/46/house-1836070__340.jpg",
+      "price": "450000",
+      "address": "123 Moore Road, Greenbrier, TN",
+      "bathrooms": "4",
+      "bedrooms": "6",
+      "id": 12
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "email": "wendy@email.com",
+      "name": "Wendy Elmer",
+      "phoneNumber": "615-123-4567",
+      "realtor": true
+    },
+    {
+      "id": 2,
+      "email": "nelmer12@gmail.com",
+      "name": "Nathan Elmer",
+      "phoneNumber": "615-123-4567",
+      "realtor": false
+    },
+    {
+      "id": 3,
+      "email": "jason@email.com",
+      "name": "Jason Blue",
+      "phoneNumber": "615-123-4567",
+      "realtor": false
+    },
+    {
+      "realtor": false,
+      "email": "emily@email.com",
+      "name": "Emily Lay",
+      "phoneNumber": "615-254-1589",
+      "id": 4
+    },
+    {
+      "realtor": false,
+      "email": "nathan@email.com",
+      "name": "Nate Brown",
+      "phoneNumber": "123-585-5555",
+      "id": 5
+    },
+    {
+      "realtor": false,
+      "email": "ryan@tanay.com",
+      "name": "Ryan Rain",
+      "phoneNumber": "615-284-8876",
+      "id": 6
+    }
+  ],
+  "savedListings": [
+    {
+      "userId": 2,
+      "listingId": 5,
+      "note": "",
+      "id": 3
+    },
+    {
+      "userId": 2,
+      "listingId": 6,
+      "note": "",
+      "id": 4
+    },
+    {
+      "userId": 2,
+      "listingId": 7,
+      "note": "",
+      "id": 5
+    }
+  ],
+  "messages": [
+    {
+      "id": 1,
+      "userId": 1,
+      "recipientId": 2,
+      "content": "Yes, does tommorow work for you?"
+    },
+    {
+      "id": 2,
+      "userId": 3,
+      "recipientId": 1,
+      "content": "Hey, can I go see the house in Dallas, TX?"
+    },
+    {
+      "userId": 2,
+      "recipientId": 1,
+      "content": "Hello, can we see the house in Texas?",
+      "id": 3
+    },
+    {
+      "userId": 1,
+      "recipientId": 2,
+      "content": "Hey, Yeah we can go see that on Friday!",
+      "id": 4
+    },
+    {
+      "userId": 2,
+      "recipientId": 1,
+      "content": "Could you show me some houses on Saturday?\n",
+      "id": 5
+    },
+    {
+      "userId": 2,
+      "recipientId": 1,
+      "content": "Could you show me some houses on Saturday?\n",
+      "id": 6
+    },
+    {
+      "userId": 2,
+      "recipientId": 1,
+      "content": "Could you show me some houses on Saturday? Thank you!\n",
+      "id": 7
+    },
+    {
+      "userId": 2,
+      "recipientId": 1,
+      "content": "Okay, thanks",
+      "id": 8
+    },
+    {
+      "userId": 1,
+      "recipientId": 6,
+      "content": "Hey let me know if I can help you with anything!\n",
+      "id": 9
+    }
+  ]
+}
