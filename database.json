@@ -1,33 +1,6 @@
 {
   "listings": [
     {
-      "id": 5,
-      "userId": 1,
-      "imageURL": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/924belairroadmostexpensivehouseveranda-1558701809.jpg?crop=1xw:1xh;center,top&resize=480:*",
-      "price": 200,
-      "address": "332 Branch Road, Austin, TX",
-      "bedrooms": 15,
-      "bathrooms": 20
-    },
-    {
-      "id": 6,
-      "userId": 1,
-      "imageURL": "https://www.colourbox.com/preview/20916952-terrible-house-with-ghosts-for-horror-stories-almost-destroyed-big-hut-in-forest.jpg",
-      "price": 2000000,
-      "address": "345 Nashville Lane, Nashville, TN",
-      "bedrooms": 2,
-      "bathrooms": 0
-    },
-    {
-      "id": 7,
-      "userId": 1,
-      "imageURL": "https://i.ytimg.com/vi/MARPpXuTi7k/maxresdefault.jpg",
-      "price": 20,
-      "address": "668 Lost Road, Amarillo, TX",
-      "bedrooms": 30,
-      "bathrooms": 10
-    },
-    {
       "id": 8,
       "userId": 1,
       "imageURL": "https://www.sbidawards.com/wp-content/uploads/2020/08/0c2107c787a7815480dd1c833d285ef2a7c89183.jpg",
@@ -71,6 +44,15 @@
       "bathrooms": "4",
       "bedrooms": "6",
       "id": 12
+    },
+    {
+      "userId": 1,
+      "imageURL": " http://builtbyhomemakers.com/wp-content/uploads/2021/03/Exterior-of-New-Home-in-Lubbock-TX-DSC06333.jpg",
+      "price": "350000",
+      "address": "102 no lane",
+      "bathrooms": "4",
+      "bedrooms": "6",
+      "id": 13
     }
   ],
   "users": [
@@ -115,28 +97,30 @@
       "name": "Ryan Rain",
       "phoneNumber": "615-284-8876",
       "id": 6
-    }
-  ],
-  "savedListings": [
-    {
-      "userId": 2,
-      "listingId": 5,
-      "note": "",
-      "id": 3
     },
     {
-      "userId": 2,
-      "listingId": 6,
-      "note": "",
-      "id": 4
+      "realtor": false,
+      "email": "jury@email.com",
+      "name": "Jury Byrd",
+      "phoneNumber": "615-404-5678",
+      "id": 7
     },
     {
-      "userId": 2,
-      "listingId": 7,
-      "note": "",
-      "id": 5
+      "realtor": false,
+      "email": "foo@email.com",
+      "name": "tester",
+      "phoneNumber": "615",
+      "id": 8
+    },
+    {
+      "realtor": false,
+      "email": "foo@email.com",
+      "name": "tester",
+      "phoneNumber": "615",
+      "id": 9
     }
   ],
+  "savedListings": [],
   "messages": [
     {
       "id": 1,
@@ -153,44 +137,134 @@
     {
       "userId": 2,
       "recipientId": 1,
-      "content": "Hello, can we see the house in Texas?",
+      "content": "yes that works",
       "id": 3
     },
     {
       "userId": 1,
-      "recipientId": 2,
-      "content": "Hey, Yeah we can go see that on Friday!",
+      "recipientId": 3,
+      "content": "hello ",
       "id": 4
     },
     {
-      "userId": 2,
-      "recipientId": 1,
-      "content": "Could you show me some houses on Saturday?\n",
+      "userId": 1,
+      "recipientId": 7,
+      "content": "Hey youre cute",
       "id": 5
     },
     {
-      "userId": 2,
-      "recipientId": 1,
-      "content": "Could you show me some houses on Saturday?\n",
+      "userId": 1,
+      "recipientId": 2,
+      "content": "Hey",
       "id": 6
     },
     {
-      "userId": 2,
+      "userId": 7,
       "recipientId": 1,
-      "content": "Could you show me some houses on Saturday? Thank you!\n",
+      "content": "hey",
       "id": 7
-    },
-    {
-      "userId": 2,
-      "recipientId": 1,
-      "content": "Okay, thanks",
-      "id": 8
     },
     {
       "userId": 1,
       "recipientId": 6,
-      "content": "Hey let me know if I can help you with anything!\n",
+      "content": "hey",
+      "id": 8
+    },
+    {
+      "userId": 1,
+      "recipientId": 7,
+      "content": "hey me friendo",
       "id": 9
+    },
+    {
+      "userId": 1,
+      "recipientId": 4,
+      "content": "yoo yooo",
+      "id": 10
+    },
+    {
+      "userId": 1,
+      "recipientId": 6,
+      "content": "789",
+      "id": 11
+    },
+    {
+      "userId": 1,
+      "recipientId": 6,
+      "content": "1234",
+      "id": 12
+    },
+    {
+      "userId": 1,
+      "recipientId": 4,
+      "content": "lol",
+      "id": 13
+    },
+    {
+      "userId": 1,
+      "recipientId": 4,
+      "content": "333",
+      "id": 14
+    },
+    {
+      "userId": 1,
+      "recipientId": 3,
+      "content": "333",
+      "id": 15
+    },
+    {
+      "userId": 1,
+      "recipientId": 5,
+      "content": "lolllll",
+      "id": 16
+    },
+    {
+      "userId": 1,
+      "recipientId": 3,
+      "content": "yellow  ",
+      "id": 17
+    },
+    {
+      "userId": 1,
+      "recipientId": 5,
+      "content": "Hello",
+      "id": 18
+    },
+    {
+      "userId": 1,
+      "recipientId": 8,
+      "content": "hey\nfriend",
+      "id": 19
+    },
+    {
+      "userId": 2,
+      "recipientId": 1,
+      "content": "Love the house!\n",
+      "id": 20
+    },
+    {
+      "userId": 2,
+      "recipientId": 1,
+      "content": "yo yo",
+      "id": 21
+    },
+    {
+      "userId": 2,
+      "recipientId": 1,
+      "content": "hello again",
+      "id": 22
+    },
+    {
+      "userId": 1,
+      "recipientId": 4,
+      "content": "Hey, wanna go see that house?\n",
+      "id": 23
+    },
+    {
+      "userId": 1,
+      "recipientId": 5,
+      "content": "Where are you?",
+      "id": 24
     }
   ]
 }
